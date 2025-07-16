@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TokoCuan - Toko Online</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #388E3C;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .item {
+            width: 220px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            background-color: #fafafa;
+        }
+        .item img {
+            width: 100%;
+            border-radius: 6px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di TokoCuan</h1>
+        <p>Toko online terpercaya dan hemat!</p>
+    </header>
 
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Produk</a>
+        <a href="#">Kontak</a>
+    </nav>
+
+    <div class="container">
+        <h2>Produk Unggulan</h2>
+        <div class="product">
+            <div class="item">
+                <img src="https://via.placeholder.com/200" alt="Produk 1">
+                <h3>Produk 1</h3>
+                <p>Rp100.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/200" alt="Produk 2">
+                <h3>Produk 2</h3>
+                <p>Rp150.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+            <!-- Tambahkan produk lainnya di sini -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 TokoCuan. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
